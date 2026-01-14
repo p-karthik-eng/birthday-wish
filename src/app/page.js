@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -6,7 +5,18 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-pink-50 dark:bg-black font-sans">
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center py-24 px-10 bg-white dark:bg-black text-center sm:text-left">
 
-      
+        {/* ❤️ Realistic Heart Symbol */}
+        <div
+          className="mb-8 text-7xl animate-heartbeat select-none"
+          style={{
+            background: "linear-gradient(145deg, #ff4d6d, #ff1f4b)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            textShadow: "0 0 20px rgba(255, 77, 109, 0.6)",
+          }}
+        >
+          ❤
+        </div>
 
         {/* 🎉 Heading */}
         <h1 className="max-w-md text-4xl font-semibold leading-tight tracking-tight text-pink-600 dark:text-pink-400">
@@ -31,6 +41,21 @@ export default function Home() {
           </Link>
         </div>
       </main>
+
+      {/* ❤️ Heartbeat Animation */}
+      <style jsx>{`
+        @keyframes heartbeat {
+          0% { transform: scale(1); }
+          25% { transform: scale(1.15); }
+          40% { transform: scale(1); }
+          60% { transform: scale(1.15); }
+          100% { transform: scale(1); }
+        }
+
+        .animate-heartbeat {
+          animation: heartbeat 1.4s infinite;
+        }
+      `}</style>
     </div>
   );
 }
