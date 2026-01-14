@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import MusicPlayer from "../../components/MusicPlayer";
+
 import LoveLetter from "../../components/LoveLetter";
 
 export default function Message() {
@@ -16,7 +16,7 @@ export default function Message() {
 
   return (
     <div className="min-h-screen bg-pink-100 flex items-center justify-center">
-      <MusicPlayer />
+      
 
       <div className="flex flex-col items-center text-center">
         {!open && (

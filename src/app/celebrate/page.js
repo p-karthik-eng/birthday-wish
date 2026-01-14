@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import MusicPlayer from "../../components/MusicPlayer";
+
 import ConfettiBlast from "../../components/ConfettiBlast";
 
 
@@ -11,7 +11,7 @@ export default function Celebrate() {
 
   return (
     <div className={`min-h-screen flex items-center justify-center ${on ? "bg-purple-800" : "bg-pink-100"}`}>
-      <MusicPlayer />
+    
       {on && <ConfettiBlast />}
 
       <div className="text-center">

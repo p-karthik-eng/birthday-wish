@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import MusicPlayer from "../../components/MusicPlayer";
+
 
 export default function Home() {
   const router = useRouter();
@@ -9,7 +9,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#fee2e2] flex flex-col items-center justify-center p-4">
       {/* Play Music Button (Positioned top-right like the image) */}
       <div className="fixed top-6 right-6 scale-90">
-        <MusicPlayer />
+        
       </div>
 
       <div className="text-center w-full max-w-2xl">

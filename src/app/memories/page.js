@@ -1,5 +1,5 @@
 "use client";
-import MusicPlayer from "../../components/MusicPlayer";
+
 
 const photos = Array.from(
   { length: 25 },
@@ -9,7 +9,7 @@ const photos = Array.from(
 export default function Memories() {
   return (
     <div className="min-h-screen bg-pink-100 px-4 py-10">
-      <MusicPlayer />
+      \
 
       <h1 className="text-3xl font-bold text-pink-600 text-center mb-8">
         Our Memories 📸
