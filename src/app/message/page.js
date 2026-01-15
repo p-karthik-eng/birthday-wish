@@ -1,7 +1,12 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import LoveLetter from "../../components/LoveLetter";
+import dynamic from "next/dynamic";
+
+const LoveLetter = dynamic(
+  () => import("../../components/LoveLetter"),
+  { ssr: false }
+);
 
 export default function Message() {
   const [open, setOpen] = useState(false);
@@ -18,7 +23,6 @@ export default function Message() {
       <div className="flex flex-col items-center text-center">
         {!open && (
           <>
-            {/* Beating Heart */}
             <div
               onClick={openHeart}
               className="relative w-24 h-24 bg-red-500 rotate-45 cursor-pointer animate-beat"
@@ -27,7 +31,6 @@ export default function Message() {
               <div className="absolute top-0 -left-12 w-24 h-24 bg-red-500 rounded-full"></div>
             </div>
 
-            {/* Text below heart */}
             <p className="mt-6 text-pink-700 font-semibold tracking-wide">
               Open my heart 💖
             </p>
