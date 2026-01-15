@@ -21,16 +21,22 @@ You are my smile on the hardest days,
 my calm in chaos,
 and my forever safe place.
 
-Every heartbeat of mine whispers
-how lucky I am to have you.
+You are the most beautiful part of my life—not just by looks, but by the way you care for me in every little moment. When I’m with you, everything feels calm and safe. Your smile makes my bad days better, and your eyes always remind me how lucky I am to have you.
 
-When we make love
-It's more to me than just everthing in world 
-I want you to know how much I care
-When we make love
-Oh, it's such a precious time
-We share our hearts, our souls and our minds
-When we make love
+Every heartbeat of mine whispers
+how grateful I am to have you—
+my comfort, my happiness,
+and my favorite person in this world.
+
+When we make love,
+it’s more to me than everything else in the world.
+I want you to know how deeply I care.
+It’s such a precious time—
+when we share our hearts, our souls, and our minds.
+
+I’m grateful for you every single day,
+and I wish all your dreams come true.
+I love you more than words can say.
 
 Happy Birthday, my love 🎂❤️
 

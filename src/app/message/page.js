@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-
 import LoveLetter from "../../components/LoveLetter";
 
 export default function Message() {
@@ -16,15 +15,13 @@ export default function Message() {
 
   return (
     <div className="min-h-screen bg-pink-100 flex items-center justify-center">
-      
-
       <div className="flex flex-col items-center text-center">
         {!open && (
           <>
             {/* Beating Heart */}
             <div
               onClick={openHeart}
-              className="relative w-24 h-24 bg-red-500 rotate-45 cursor-pointer animate-[beat_1s_infinite]"
+              className="relative w-24 h-24 bg-red-500 rotate-45 cursor-pointer animate-beat"
             >
               <div className="absolute -top-12 left-0 w-24 h-24 bg-red-500 rounded-full"></div>
               <div className="absolute top-0 -left-12 w-24 h-24 bg-red-500 rounded-full"></div>
@@ -52,27 +49,6 @@ export default function Message() {
           </>
         )}
       </div>
-
-      {/* Custom animation */}
-      <style jsx>{`
-        @keyframes beat {
-          0% {
-            transform: scale(1);
-          }
-          25% {
-            transform:  scale(1.1);
-          }
-          50% {
-            transform: scale(1);
-          }
-          75% {
-            transform:  scale(1.1);
-          }
-          100% {
-            transform:  scale(1);
-          }
-        }
-      `}</style>
     </div>
   );
 }

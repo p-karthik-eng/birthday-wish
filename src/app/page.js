@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -44,21 +43,6 @@ export default function Home() {
           </Link>
         </div>
       </main>
-
-      {/* ❤️ Heartbeat Animation */}
-      <style jsx>{`
-        @keyframes heartbeat {
-          0% { transform: scale(1); }
-          25% { transform: scale(1.15); }
-          40% { transform: scale(1); }
-          60% { transform: scale(1.15); }
-          100% { transform: scale(1); }
-        }
-
-        .animate-heartbeat {
-          animation: heartbeat 1.4s infinite;
-        }
-      `}</style>
     </div>
   );
 }
